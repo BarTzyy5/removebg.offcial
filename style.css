@@ -1,0 +1,35 @@
+.notranslate {
+  translate: no;
+}
+
+.drop-zone {
+  width: 100%;
+  border: 4px dashed #d1d5db;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  color: #6b7280;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.drop-zone.dragover {
+  border-color: #2563eb;
+  background-color: #ebf4ff;
+}
+
+.checkerboard {
+  background-image: linear-gradient(45deg, #ccc 25%, transparent 25%, transparent 75%, #ccc 75%, #ccc),
+                    linear-gradient(45deg, #ccc 25%, transparent 25%, transparent 75%, #ccc 75%, #ccc);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+.loading {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: #2563eb;
+  font-weight: 600;
+}

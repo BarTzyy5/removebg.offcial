@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Remove Background</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center notranslate">
+
+  <!-- Header -->
+  <header class="w-full bg-white shadow-md py-4 px-6 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-blue-600">removebg.official</h1>
+    <button onclick="resetAll()" class="bg-yellow-500 text-white px-4 py-2 rounded-xl hover:bg-yellow-600 transition">
+      Ulangi
+    </button>
+  </header>
+
+  <!-- Main -->
+  <main class="bg-white p-8 rounded-2xl shadow-xl w-full max-w-xl text-center mt-8">
+    <h2 class="text-xl font-semibold mb-4 text-gray-800">Remove Background from Image</h2>
+
+    <div id="dropZone" class="drop-zone">Klik atau Drag & Drop gambar di sini</div>
+    <input type="file" id="fileInput" accept="image/*" class="hidden" />
+
+    <div id="loading" class="loading hidden">
+      <svg class="animate-spin h-6 w-6 text-blue-500" fill="none" viewBox="0 0 24 24">
+        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8z"></path>
+      </svg>
+      <span>Memproses gambar...</span>
+    </div>
+
+    <div id="result" class="mt-6"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
