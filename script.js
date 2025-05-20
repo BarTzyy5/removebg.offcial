@@ -76,13 +76,13 @@ async function removeBackground(file) {
       </div>
 
       <div id="shareOptions" class="hidden mt-4 flex flex-wrap gap-3 justify-center">
-        <a href="https://wa.me/?text=Coba%20hapus%20background%20gambar%20di%20https://removebg.official" target="_blank" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-xl flex items-center gap-2">
+        <a href="https://wa.me/?text=Coba%20hapus%20background%20gambar%20di%20https://bartzyy5.github.io/removebg.offcial/" target="_blank" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-xl flex items-center gap-2">
           <i class="ph ph-whatsapp-logo"></i> WhatsApp
         </a>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https://removebg.official" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-xl flex items-center gap-2">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://bartzyy5.github.io/removebg.offcial/" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-xl flex items-center gap-2">
           <i class="ph ph-facebook-logo"></i> Facebook
         </a>
-        <a href="https://twitter.com/intent/tweet?url=https://removebg.official" target="_blank" class="bg-blue-400 hover:bg-blue-500 text-white px-4 py-2 rounded-xl flex items-center gap-2">
+        <a href="https://twitter.com/intent/tweet?url=https://bartzyy5.github.io/removebg.offcial/" target="_blank" class="bg-blue-400 hover:bg-blue-500 text-white px-4 py-2 rounded-xl flex items-center gap-2">
           <i class="ph ph-twitter-logo"></i> Twitter
         </a>
         <a href="https://discord.com/channels/@me" target="_blank" class="bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-xl flex items-center gap-2">
